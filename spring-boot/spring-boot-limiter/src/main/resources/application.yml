@@ -1,0 +1,9 @@
+#配置redis 服务器地址
+spring:
+  redis:
+    host: 192.168.1.223
+    port: 6480
+    password: fdewh6b#DM9%
+    database: 1
+
+
