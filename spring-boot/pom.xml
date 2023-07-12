@@ -21,8 +21,19 @@
   </properties>
 
   <modules>
+    <module>spring-boot-event</module>
+    <module>spring-boot-statemachine</module>
+    <module>spring-boot-rabbitmq</module>
+    <module>spring-boot-security</module>
+    <module>spring-boot-mybatis</module>
+    <module>spring-boot-elasticsearch</module>
+    <module>spring-boot-exception</module>
+    <module>spring-boot-gateway</module>
+    <module>spring-boot-repeat</module>
+    <module>spring-boot-retry</module>
     <module>spring-boot-common</module>
     <module>spring-boot-limiter</module>
+    <module>spring-boot-validation</module>
   </modules>
 
   <!-- parent指明继承关系，给出被继承的父项目的具体信息-->
