@@ -34,6 +34,7 @@
     <module>spring-boot-common</module>
     <module>spring-boot-limiter</module>
     <module>spring-boot-validation</module>
+    <module>spring-boot-export</module>
   </modules>
 
   <!-- parent指明继承关系，给出被继承的父项目的具体信息-->

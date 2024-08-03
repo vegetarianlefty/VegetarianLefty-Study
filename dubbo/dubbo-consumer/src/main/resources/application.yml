@@ -24,7 +24,7 @@ dubbo:
       name: dubbo
       host: ${spring.cloud.client.ip-address}
       port: -1
-      serialization: kryo
+      serialization: hessian2
   registry:
     id: zk-registry
     address: zookeeper://zk.vegetarianlefty.com:2181

@@ -7,7 +7,7 @@ spring:
     allow-bean-definition-overriding: true
   cloud:
     nacos:
-      server-addr: nacos.vegetarianlefty.com:8848
+      server-addr: 82.156.217.11:8848
       config:
         group: JAVA
         namespace: ""
@@ -24,7 +24,7 @@ dubbo:
       name: dubbo
       host: ${spring.cloud.client.ip-address}
       port: -1
-      serialization: kryo
+      serialization: hessian2
   registry:
     id: zk-registry
     address: zookeeper://zk.vegetarianlefty.com:2181
