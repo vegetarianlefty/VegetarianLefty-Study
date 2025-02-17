@@ -1,0 +1,22 @@
+server:
+  port: 8888
+
+#配置redis 服务器地址
+spring:
+  redis:
+    password: 123456
+    cluster:
+      max-redirects: 3
+      nodes: 192.168.1.201:6380,192.168.1.201:6381,192.168.1.202:6382,192.168.1.202:6383,192.168.1.203:6384,192.168.1.203:6385
+    lettuce:
+       pool:
+         max-idle: 8
+         min-idle: 0
+         max-active: 8
+         max-wait: -1ms
+       cluster:
+           refresh:
+             adaptive: true
+             period: 2000ms
+
+
